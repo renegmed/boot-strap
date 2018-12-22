@@ -1,0 +1,39 @@
+.myDiv{
+    width: 200px;
+    height:200px;
+    margin: 20px 10px;
+    padding: 20px;
+    color:white;
+    display: inline-block;
+}    
+.myDiv2{
+    width: 100%;
+    height:200px;
+    background: url('../img/doc2.jpg') no-repeat center center;
+    background-size: cover; 
+}
+
+.myDiv3 {
+    margin-top:20px;
+    border: 1px solid #000;
+}
+
+.myRow {
+    width: 100%;
+    height: 100px;
+}
+
+# @media(min-width:576px){body{background:cyan;}}
+# @media(min-width:768px){body{background:lightblue;}}
+# @media(min-width:992px){body{background:lightgreen;}}
+# @media(min-width:1200px){body{background:yellow;}}
+
+# @media(max-width:575px){body{background:gray;}}
+
+#red{
+    background-color: purple;
+}
+
+#green{
+    background-color: orange;
+}
