@@ -3,7 +3,7 @@ import React from 'react';
 function NavbarColors(props) {  
     return (
        <div> 
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-info" id="mainNav">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
               <a className="navbar-brand js-scroll-trigger" href="#top">Navbar</a>
               <button className="navbar-toggler navbar-toggler-right" 
@@ -31,6 +31,12 @@ function NavbarColors(props) {
                   <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#link3">Link3</a></li>
                   <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#link4">Link4</a></li>
                   <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#link5">Link5</a></li>
+                  
+                  <form className="form-inline my-2 my-lg-0">
+                    <input className="form-control mr-sm-2" type="text" placeholder="Search"></input>
+                    <button className="btn btn-outline-success my-2 my-sm-0">Search</button>
+                  </form>
+
                 </ul>
               </div>
             </div>
@@ -50,22 +56,11 @@ function NavbarColors(props) {
               <a href="/" className="dropdown-item">The Jack</a>
             </div>
           </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">Alice</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">The Hatter</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">Dormouse</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">March Hare</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">Dinah</a>
-            </li>
-
+            <li className="nav-item"><a href="/" className="nav-link">Alice</a></li>
+            <li className="nav-item"><a href="/" className="nav-link">The Hatter</a></li>
+            <li className="nav-item"><a href="/" className="nav-link">Dormouse</a></li>
+            <li className="nav-item"><a href="/" className="nav-link">March Hare</a></li>
+            <li className="nav-item"><a href="/" className="nav-link">Dinah</a></li> 
           </ul>
 
         </div>
