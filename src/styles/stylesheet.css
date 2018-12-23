@@ -23,6 +23,10 @@
     
 }
 
+.height100px {
+    height:100px;
+}
+ 
 .mySec {
     height:200px;
     
@@ -31,6 +35,16 @@
 .myRow {
     width: 100%;
     height: 100px;
+}
+
+.mySection {
+    background: #f1f1f1;
+    height: 200px;
+}
+
+.myBorder {
+    border: 1px solid green;
+   
 }
 /*
 @media(min-width:576px){body{background:cyan;}}
