@@ -43,7 +43,7 @@ function OtherNav(props) {
         <div className="container m-5">
           <ul className="nav nav-pills nav-fill">
           <li class="nav-item dropdown">
-            <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Hearts Dropdown</a>
+            <a href="/" className="nav-link dropdown-toggle" data-toggle="dropdown">Hearts Dropdown</a>
             <div className="dropdown-menu">
               <a href="/" className="dropdown-item">The Queen</a>
               <a href="/" className="dropdown-item">The King</a>
@@ -51,19 +51,19 @@ function OtherNav(props) {
             </div>
           </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Alice</a>
+              <a href="/" className="nav-link">Alice</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">The Hatter</a>
+              <a href="/" className="nav-link">The Hatter</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Dormouse</a>
+              <a href="/" className="nav-link">Dormouse</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">March Hare</a>
+              <a href="/" className="nav-link">March Hare</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Dinah</a>
+              <a href="/" className="nav-link">Dinah</a>
             </li>
 
           </ul>
