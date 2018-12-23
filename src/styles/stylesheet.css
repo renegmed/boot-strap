@@ -62,3 +62,21 @@
 #green{
     background-color: orange;
 }
+
+
+section {
+    margin-top:20px;
+    margin-left:20px;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url('../img/header-bg.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
