@@ -1,16 +1,8 @@
 import React, { Component } from 'react'; 
 import { Route } from 'react-router-dom';
 import TableOfContent from './TableOfContent';
-import Chapter3 from './chap03/Chapter3';
-import BackgroundColors from './chap03/BackgroundColors';
-import ContainersRows from './chap03/ContainersRows';
-import MediaBreakpoints from './chap03/MediaBreakpoints';
-import GridSystems from './chap03/GridSystems';
-import AlignmentOffsets from './chap03/AlignmentOffsets';
-import Padding from './chap03/Padding';
-import FlexibleBox from './chap03/FlexibleBox';
-
-// import Chapter4 from './chap04/Chapter4';
+import Chapter3Router from './chap03/Chapter3Router';
+import Chapter4Router from './chap04/Chapter4Router';
 
 // import Chapter5 from './chap05/Chapter5';
 
@@ -25,14 +17,8 @@ class App extends Component {
     return (
       <div >
         <Route exact path="/" render={ () => <TableOfContent/> } /> 
-        <Route exact path="/Chapter3" render={ () => <Chapter3/> } /> 
-        <Route exact path="/BackgroundColors" render={ () => <BackgroundColors/> } /> 
-        <Route exact path="/ContainersRows" render={ () => <ContainersRows/> } /> 
-        <Route exact path="/MediaBreakpoints" render={ () => <MediaBreakpoints/> } /> 
-        <Route exact path="/GridSystems" render={ () => <GridSystems/> } /> 
-        <Route exact path="/AlignmentOffsets" render={ () => <AlignmentOffsets/> } /> 
-        <Route exact path="/Padding" render={ () => <Padding/> } /> 
-        <Route exact path="/FlexibleBox" render={ () => <FlexibleBox/> } /> 
+        <Chapter3Router />
+        <Chapter4Router />
       </div>
     );
   }
