@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import Chapter4 from './Chapter4';
 import PrecodedNavbar from './PrecodedNavbar';
 import HandcodedNavbar from './HandcodedNavbar';
-import ARIADataDefinitions from './ARIADataDefinitions';
 import NavbarDropdown from './NavbarDropdown';
 import OtherNav from './OtherNav';
 import NavbarColors from './NavbarColors';
@@ -18,8 +17,7 @@ function Chapter4Router(props) {
       <div > 
         <Route exact path="/Chapter4" render={ () => <Chapter4/> } /> 
         <Route exact path="/PrecodedNavbar" render={ () => <PrecodedNavbar/> } /> 
-        <Route exact path="/HandcodedNavbar" render={ () => <HandcodedNavbar/> } />         
-        <Route exact path="/ARIADataDefinitions" render={ () => <ARIADataDefinitions/> } /> 
+        <Route exact path="/HandcodedNavbar" render={ () => <HandcodedNavbar/> } />
         <Route exact path="/NavbarDropdown" render={ () => <NavbarDropdown/> } /> 
         <Route exact path="/OtherNav" render={ () => <OtherNav/> } /> 
         <Route exact path="/NavbarColors" render={ () => <NavbarColors/> } /> 
