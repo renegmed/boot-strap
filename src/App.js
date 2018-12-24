@@ -3,15 +3,8 @@ import { Route } from 'react-router-dom';
 import TableOfContent from './TableOfContent';
 import Chapter3Router from './chap03/Chapter3Router';
 import Chapter4Router from './chap04/Chapter4Router';
-
-// import Chapter5 from './chap05/Chapter5';
-
-// import Chapter6 from './chap06/Chapter6';
-
-// import Chapter7 from './chap07/Chapter7';
-
-// import Chapter8 from './chap08/Chapter8';
-
+import Chapter5Router from './chap05/Chapter5Router';
+ 
 class App extends Component {
   render() {
     return (
@@ -19,6 +12,7 @@ class App extends Component {
         <Route exact path="/" render={ () => <TableOfContent/> } /> 
         <Chapter3Router />
         <Chapter4Router />
+        <Chapter5Router />
       </div>
     );
   }
