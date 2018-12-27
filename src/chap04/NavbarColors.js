@@ -48,7 +48,7 @@ function NavbarColors(props) {
         </header>
         <div className="container m-5">
           <ul className="nav nav-pills nav-fill">
-          <li class="nav-item dropdown">
+          <li className="nav-item dropdown">
             <a href="/" className="nav-link dropdown-toggle" data-toggle="dropdown">Hearts Dropdown</a>
             <div className="dropdown-menu">
               <a href="/" className="dropdown-item">The Queen</a>

@@ -8,6 +8,8 @@ import Chapter6Router from './chap06/Chapter6Router';
 import Chapter7Router from './chap07/Chapter7Router';
 import Chapter8Router from './chap08/Chapter8Router';
 import Chapter9Router from './chap09/Chapter9Router';
+import ReactStrapRouter from './reactstrapExamples/ReactStrapRouter';
+import BootstrapTable2Router from './bootstrapTable2/BootstrapTable2Router';
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,8 @@ class App extends Component {
         <Chapter7Router />
         <Chapter8Router />
         <Chapter9Router />
+        <ReactStrapRouter />
+        <BootstrapTable2Router />
       </div>
     );
   }
